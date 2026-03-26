@@ -173,6 +173,12 @@ See [docs/troubleshooting.md](docs/troubleshooting.md) for common issues includi
 - PyMOL installation variants (conda, Schrodinger, open-source)
 - Windows notes
 
+## Acknowledgments
+
+This project is inspired by [ChatMol](https://github.com/ChatMol/ChatMol) by Jinyuan Sun et al., a comprehensive LLM-powered molecular design ecosystem with a PyMOL plugin, MCP server, Python package, and Copilot for structure prediction, docking, and sequence design ([paper](https://aclanthology.org/2024.langmol-1.7/)).
+
+While ChatMol provides a full multi-provider agent with its own tool-calling loop and Qt5 GUI, pymol-claude-bridge takes a complementary approach: a minimal, zero-dependency HTTP bridge that lets Claude Code's built-in agent capabilities drive PyMOL directly. If you need multi-LLM support, vision-model feedback loops, or computational chemistry workflows beyond visualization, check out ChatMol.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
